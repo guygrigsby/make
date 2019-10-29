@@ -1,4 +1,4 @@
-FROM golang:1.13-alpine
+FROM docker:18
 
 RUN apk update && apk add make
 
